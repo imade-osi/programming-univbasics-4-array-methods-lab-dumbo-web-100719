@@ -13,8 +13,8 @@ end
 describe "#using_sort" do 
   it "takes in an argument of an array and returns the sorted array." do 
     array = ["wow", "I", "am", "really", "learning", "arrays!"]
-    expect(using_sort(array).last).to eq("am")
-    expect(using_sort(array).first).to eq("I")
+    expect(using_sort(array).last).to eq("wow")
+    expect(using_sort(array).first).to eq("am")
   end
 end
 
